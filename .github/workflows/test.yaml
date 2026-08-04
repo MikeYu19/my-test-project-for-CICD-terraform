@@ -25,3 +25,4 @@ jobs:
           run: |
             echo "Listing S3 Buckets:"
             aws s3 ls
+            
