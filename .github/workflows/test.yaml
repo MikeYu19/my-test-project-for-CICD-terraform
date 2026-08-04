@@ -1,5 +1,9 @@
 name: Listing S3 Buckets
 
+permissions:
+  id-token: write
+  contents: read
+
 on:
   push:
     branches:
